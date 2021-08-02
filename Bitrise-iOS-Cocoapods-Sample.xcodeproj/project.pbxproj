@@ -741,7 +741,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleUITests.xctrunner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
