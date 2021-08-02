@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABAE13F26B829C30050BEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE13E26B829C30050BEFF /* AppDelegate.swift */; };
+		1ABAE14126B829C30050BEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE14026B829C30050BEFF /* SceneDelegate.swift */; };
+		1ABAE14326B829C30050BEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE14226B829C30050BEFF /* ViewController.swift */; };
+		1ABAE14626B829C30050BEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAE14426B829C30050BEFF /* Main.storyboard */; };
+		1ABAE14826B829C60050BEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAE14726B829C60050BEFF /* Assets.xcassets */; };
+		1ABAE14B26B829C60050BEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAE14926B829C60050BEFF /* LaunchScreen.storyboard */; };
+		1ABAE15626B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE15526B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleTests.swift */; };
+		1ABAE16126B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE16026B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleUITests.swift */; };
+		1ABAE17026B83EFD0050BEFF /* WebHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE16F26B83EFD0050BEFF /* WebHelper.swift */; };
+		1ABAE17126B83EFD0050BEFF /* WebHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE16F26B83EFD0050BEFF /* WebHelper.swift */; };
+		1ABAE17226B83EFD0050BEFF /* WebHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAE16F26B83EFD0050BEFF /* WebHelper.swift */; };
+		BEE61194271F75F0741DD0E2 /* Pods_Bitrise_iOS_Cocoapods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828DED610768E0668F9599F /* Pods_Bitrise_iOS_Cocoapods_Sample.framework */; };
+		C6B85C3B1CCA1C64B1F213C0 /* Pods_Bitrise_iOS_Cocoapods_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3925BE25C43BE7E20EAF3B5F /* Pods_Bitrise_iOS_Cocoapods_SampleTests.framework */; };
+		EAB0B1369456F15F3C285C2C /* Pods_Bitrise_iOS_Cocoapods_Sample_Bitrise_iOS_Cocoapods_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73C0B4B451347834569DE92 /* Pods_Bitrise_iOS_Cocoapods_Sample_Bitrise_iOS_Cocoapods_SampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ABAE15226B829C60050BEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABAE13326B829C30050BEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABAE13A26B829C30050BEFF;
+			remoteInfo = "Bitrise-iOS-Cocoapods-Sample";
+		};
+		1ABAE15D26B829C60050BEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABAE13326B829C30050BEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABAE13A26B829C30050BEFF;
+			remoteInfo = "Bitrise-iOS-Cocoapods-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139D5BC77621F2BFF4355A98 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1ABAE13B26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-iOS-Cocoapods-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAE13E26B829C30050BEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABAE14026B829C30050BEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ABAE14226B829C30050BEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ABAE14526B829C30050BEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABAE14726B829C60050BEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABAE14A26B829C60050BEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABAE14C26B829C60050BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABAE15126B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-iOS-Cocoapods-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAE15526B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_iOS_Cocoapods_SampleTests.swift; sourceTree = "<group>"; };
+		1ABAE15726B829C60050BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABAE15C26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-iOS-Cocoapods-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAE16026B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_iOS_Cocoapods_SampleUITests.swift; sourceTree = "<group>"; };
+		1ABAE16226B829C60050BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABAE16F26B83EFD0050BEFF /* WebHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebHelper.swift; sourceTree = "<group>"; };
+		2828DED610768E0668F9599F /* Pods_Bitrise_iOS_Cocoapods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitrise_iOS_Cocoapods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3925BE25C43BE7E20EAF3B5F /* Pods_Bitrise_iOS_Cocoapods_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitrise_iOS_Cocoapods_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FECD03FD579D882FD058BE /* Pods-Bitrise-iOS-Cocoapods-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-SampleTests/Pods-Bitrise-iOS-Cocoapods-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A718FFBCC98EC5AAC0B2722 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A44B361774C8FCA2E4312CF2 /* Pods-Bitrise-iOS-Cocoapods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample/Pods-Bitrise-iOS-Cocoapods-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		CB0D806568F2452C926F4733 /* Pods-Bitrise-iOS-Cocoapods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample/Pods-Bitrise-iOS-Cocoapods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		D0934272FF94BB23B9894878 /* Pods-Bitrise-iOS-Cocoapods-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-SampleTests/Pods-Bitrise-iOS-Cocoapods-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D73C0B4B451347834569DE92 /* Pods_Bitrise_iOS_Cocoapods_Sample_Bitrise_iOS_Cocoapods_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitrise_iOS_Cocoapods_Sample_Bitrise_iOS_Cocoapods_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABAE13826B829C30050BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE61194271F75F0741DD0E2 /* Pods_Bitrise_iOS_Cocoapods_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABAE14E26B829C60050BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B85C3B1CCA1C64B1F213C0 /* Pods_Bitrise_iOS_Cocoapods_SampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABAE15926B829C60050BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB0B1369456F15F3C285C2C /* Pods_Bitrise_iOS_Cocoapods_Sample_Bitrise_iOS_Cocoapods_SampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABAE13226B829C30050BEFF = {
+			isa = PBXGroup;
+			children = (
+				1ABAE13D26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */,
+				1ABAE15426B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */,
+				1ABAE15F26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */,
+				1ABAE13C26B829C30050BEFF /* Products */,
+				358BCAF05C3FFB1088A369DB /* Pods */,
+				623D452389C653BD12791926 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABAE13C26B829C30050BEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAE13B26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample.app */,
+				1ABAE15126B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests.xctest */,
+				1ABAE15C26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABAE13D26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAE16E26B83EE20050BEFF /* Common */,
+				1ABAE13E26B829C30050BEFF /* AppDelegate.swift */,
+				1ABAE14026B829C30050BEFF /* SceneDelegate.swift */,
+				1ABAE14226B829C30050BEFF /* ViewController.swift */,
+				1ABAE14426B829C30050BEFF /* Main.storyboard */,
+				1ABAE14726B829C60050BEFF /* Assets.xcassets */,
+				1ABAE14926B829C60050BEFF /* LaunchScreen.storyboard */,
+				1ABAE14C26B829C60050BEFF /* Info.plist */,
+			);
+			path = "Bitrise-iOS-Cocoapods-Sample";
+			sourceTree = "<group>";
+		};
+		1ABAE15426B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAE15526B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleTests.swift */,
+				1ABAE15726B829C60050BEFF /* Info.plist */,
+			);
+			path = "Bitrise-iOS-Cocoapods-SampleTests";
+			sourceTree = "<group>";
+		};
+		1ABAE15F26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAE16026B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleUITests.swift */,
+				1ABAE16226B829C60050BEFF /* Info.plist */,
+			);
+			path = "Bitrise-iOS-Cocoapods-SampleUITests";
+			sourceTree = "<group>";
+		};
+		1ABAE16E26B83EE20050BEFF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAE16F26B83EFD0050BEFF /* WebHelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		358BCAF05C3FFB1088A369DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D806568F2452C926F4733 /* Pods-Bitrise-iOS-Cocoapods-Sample.debug.xcconfig */,
+				A44B361774C8FCA2E4312CF2 /* Pods-Bitrise-iOS-Cocoapods-Sample.release.xcconfig */,
+				6A718FFBCC98EC5AAC0B2722 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.debug.xcconfig */,
+				139D5BC77621F2BFF4355A98 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig */,
+				D0934272FF94BB23B9894878 /* Pods-Bitrise-iOS-Cocoapods-SampleTests.debug.xcconfig */,
+				67FECD03FD579D882FD058BE /* Pods-Bitrise-iOS-Cocoapods-SampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		623D452389C653BD12791926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2828DED610768E0668F9599F /* Pods_Bitrise_iOS_Cocoapods_Sample.framework */,
+				D73C0B4B451347834569DE92 /* Pods_Bitrise_iOS_Cocoapods_Sample_Bitrise_iOS_Cocoapods_SampleUITests.framework */,
+				3925BE25C43BE7E20EAF3B5F /* Pods_Bitrise_iOS_Cocoapods_SampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABAE16526B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-Sample" */;
+			buildPhases = (
+				4E8B5B4CF4F714A634022283 /* [CP] Check Pods Manifest.lock */,
+				1ABAE13726B829C30050BEFF /* Sources */,
+				1ABAE13826B829C30050BEFF /* Frameworks */,
+				1ABAE13926B829C30050BEFF /* Resources */,
+				74E31BFB4FCB60A4507D83F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitrise-iOS-Cocoapods-Sample";
+			productName = "Bitrise-iOS-Cocoapods-Sample";
+			productReference = 1ABAE13B26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ABAE15026B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABAE16826B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleTests" */;
+			buildPhases = (
+				8E39906268A9A715CF0A163E /* [CP] Check Pods Manifest.lock */,
+				1ABAE14D26B829C60050BEFF /* Sources */,
+				1ABAE14E26B829C60050BEFF /* Frameworks */,
+				1ABAE14F26B829C60050BEFF /* Resources */,
+				A92800D2C6490CCFED2FF334 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABAE15326B829C60050BEFF /* PBXTargetDependency */,
+			);
+			name = "Bitrise-iOS-Cocoapods-SampleTests";
+			productName = "Bitrise-iOS-Cocoapods-SampleTests";
+			productReference = 1ABAE15126B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ABAE15B26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABAE16B26B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleUITests" */;
+			buildPhases = (
+				522C3AFFEDC336E44E8D8FC2 /* [CP] Check Pods Manifest.lock */,
+				1ABAE15826B829C60050BEFF /* Sources */,
+				1ABAE15926B829C60050BEFF /* Frameworks */,
+				1ABAE15A26B829C60050BEFF /* Resources */,
+				6E4F2CC1E74DB417361999CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABAE15E26B829C60050BEFF /* PBXTargetDependency */,
+			);
+			name = "Bitrise-iOS-Cocoapods-SampleUITests";
+			productName = "Bitrise-iOS-Cocoapods-SampleUITests";
+			productReference = 1ABAE15C26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABAE13326B829C30050BEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1ABAE13A26B829C30050BEFF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1ABAE15026B829C60050BEFF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1ABAE13A26B829C30050BEFF;
+					};
+					1ABAE15B26B829C60050BEFF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1ABAE13A26B829C30050BEFF;
+					};
+				};
+			};
+			buildConfigurationList = 1ABAE13626B829C30050BEFF /* Build configuration list for PBXProject "Bitrise-iOS-Cocoapods-Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABAE13226B829C30050BEFF;
+			productRefGroup = 1ABAE13C26B829C30050BEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */,
+				1ABAE15026B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */,
+				1ABAE15B26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABAE13926B829C30050BEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAE14B26B829C60050BEFF /* LaunchScreen.storyboard in Resources */,
+				1ABAE14826B829C60050BEFF /* Assets.xcassets in Resources */,
+				1ABAE14626B829C30050BEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABAE14F26B829C60050BEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABAE15A26B829C60050BEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E8B5B4CF4F714A634022283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitrise-iOS-Cocoapods-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522C3AFFEDC336E44E8D8FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E4F2CC1E74DB417361999CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E31BFB4FCB60A4507D83F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample/Pods-Bitrise-iOS-Cocoapods-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample/Pods-Bitrise-iOS-Cocoapods-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample/Pods-Bitrise-iOS-Cocoapods-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E39906268A9A715CF0A163E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bitrise-iOS-Cocoapods-SampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92800D2C6490CCFED2FF334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-SampleTests/Pods-Bitrise-iOS-Cocoapods-SampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-SampleTests/Pods-Bitrise-iOS-Cocoapods-SampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bitrise-iOS-Cocoapods-SampleTests/Pods-Bitrise-iOS-Cocoapods-SampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABAE13726B829C30050BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAE17026B83EFD0050BEFF /* WebHelper.swift in Sources */,
+				1ABAE14326B829C30050BEFF /* ViewController.swift in Sources */,
+				1ABAE13F26B829C30050BEFF /* AppDelegate.swift in Sources */,
+				1ABAE14126B829C30050BEFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABAE14D26B829C60050BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAE17126B83EFD0050BEFF /* WebHelper.swift in Sources */,
+				1ABAE15626B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABAE15826B829C60050BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAE17226B83EFD0050BEFF /* WebHelper.swift in Sources */,
+				1ABAE16126B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ABAE15326B829C60050BEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */;
+			targetProxy = 1ABAE15226B829C60050BEFF /* PBXContainerItemProxy */;
+		};
+		1ABAE15E26B829C60050BEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */;
+			targetProxy = 1ABAE15D26B829C60050BEFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ABAE14426B829C30050BEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABAE14526B829C30050BEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABAE14926B829C60050BEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABAE14A26B829C60050BEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABAE16326B829C60050BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABAE16426B829C60050BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABAE16626B829C60050BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0D806568F2452C926F4733 /* Pods-Bitrise-iOS-Cocoapods-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABAE16726B829C60050BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44B361774C8FCA2E4312CF2 /* Pods-Bitrise-iOS-Cocoapods-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ABAE16926B829C60050BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0934272FF94BB23B9894878 /* Pods-Bitrise-iOS-Cocoapods-SampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iOS-Cocoapods-Sample.app/Bitrise-iOS-Cocoapods-Sample";
+			};
+			name = Debug;
+		};
+		1ABAE16A26B829C60050BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FECD03FD579D882FD058BE /* Pods-Bitrise-iOS-Cocoapods-SampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iOS-Cocoapods-Sample.app/Bitrise-iOS-Cocoapods-Sample";
+			};
+			name = Release;
+		};
+		1ABAE16C26B829C60050BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A718FFBCC98EC5AAC0B2722 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bitrise-iOS-Cocoapods-Sample";
+			};
+			name = Debug;
+		};
+		1ABAE16D26B829C60050BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D5BC77621F2BFF4355A98 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bitrise-iOS-Cocoapods-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABAE13626B829C30050BEFF /* Build configuration list for PBXProject "Bitrise-iOS-Cocoapods-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAE16326B829C60050BEFF /* Debug */,
+				1ABAE16426B829C60050BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABAE16526B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAE16626B829C60050BEFF /* Debug */,
+				1ABAE16726B829C60050BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABAE16826B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAE16926B829C60050BEFF /* Debug */,
+				1ABAE16A26B829C60050BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABAE16B26B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAE16C26B829C60050BEFF /* Debug */,
+				1ABAE16D26B829C60050BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABAE13326B829C30050BEFF /* Project object */;
+}
