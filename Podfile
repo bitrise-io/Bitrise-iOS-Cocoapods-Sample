@@ -6,13 +6,13 @@ platform :ios, '11.7'
 
 def common_pods
     pod 'Firebase/Core'
-    pod 'Firebase/Auth'
-    pod 'Firebase/Firestore'
-    pod 'Firebase/Functions'
-    pod 'Firebase/RemoteConfig'
-    pod 'Firebase/Analytics'
-    pod 'FirebaseMessaging'
-    pod 'Firebase/Crashlytics'
+    #pod 'Firebase/Auth'
+    #pod 'Firebase/Firestore'
+    #pod 'Firebase/Functions'
+    #pod 'Firebase/RemoteConfig'
+    #pod 'Firebase/Analytics'
+    #pod 'FirebaseMessaging'
+    #pod 'Firebase/Crashlytics'
 end
 
 target 'Bitrise-iOS-Cocoapods-Sample' do
