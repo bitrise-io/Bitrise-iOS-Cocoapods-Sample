@@ -278,8 +278,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */,
 				1ABAE15026B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */,
+				1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */,
 				1ABAE15B26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */,
 			);
 		};
@@ -591,8 +591,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -682,7 +685,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-SampleTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -692,6 +697,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iOS-Cocoapods-Sample.app/Bitrise-iOS-Cocoapods-Sample";
@@ -712,6 +719,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Bitrise-iOS-Cocoapods-Sample";
@@ -723,7 +731,10 @@
 			baseConfigurationReference = 139D5BC77621F2BFF4355A98 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Bitrise-iOS-Cocoapods-SampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -732,6 +743,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bitrise-iOS-Cocoapods-SampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Bitrise-iOS-Cocoapods-Sample";
