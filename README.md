@@ -6,6 +6,20 @@ This is a sample iOS project that demonstrates a [Bitrise](https://bitrise.io) C
 
 ## Project setup and config
 
-Coming soon...
+This is a Cocoapods based sample iOS project which runs unit and UI tests on both simulator and device. Currently there are 2 available workflows for this app:
+
+`Run_Simulator_Tests` does the following:
+
+- Clone this repository
+- Install Cocoapods dependencies
+- Run the tests on simulator via `Xcode Test for iOS` step
+- Deploy the test results so they will be available on the `Test Reports` page
+
+`Run_Device_Tests`: does the following:
+
+- Clone this repository
+- Install Cocoapods dependencies
+- Run the tests on device via `[BETA] iOS Device Testing` step
+- Deploy the test results so they will be available on the `Test Reports` page
 
 For more complex Bitrise workflows, check out our other sample projects.
