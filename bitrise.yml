@@ -1,48 +1,41 @@
 ---
 format_version: '11'
-default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: ios
 trigger_map:
-- push_branch: '*'
-  workflow: primary
-- pull_request_source_branch: '*'
-  workflow: primary
+- pull_request_source_branch: "*"
+  workflow: Run_Simulator_Tests
 workflows:
-  deploy:
+  Run_Device_Tests:
     steps:
     - activate-ssh-key@4:
         run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
     - git-clone@6: {}
     - cache-pull@2: {}
-    - script@1:
-        title: Do anything with Script step
-    - certificate-and-profile-installer@1: {}
     - cocoapods-install@2: {}
-    - xcode-test@3:
+    - certificate-and-profile-installer@1:
         inputs:
-        - project_path: $BITRISE_PROJECT_PATH
-        - scheme: $BITRISE_SCHEME
-    - xcode-archive@3:
+        - install_defaults: 'no'
+    - xcode-build-for-test@0:
         inputs:
-        - project_path: $BITRISE_PROJECT_PATH
-        - scheme: $BITRISE_SCHEME
-        - export_method: $BITRISE_EXPORT_METHOD
+        - verbose_log: 'yes'
+    - virtual-device-testing-for-ios@0:
+        inputs:
+        - test_devices: iphone8,14.7,en,portrait
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
-  primary:
+  Run_Simulator_Tests:
     steps:
     - activate-ssh-key@4:
         run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
     - git-clone@6: {}
     - cache-pull@2: {}
-    - script@1:
-        title: Do anything with Script step
-    - certificate-and-profile-installer@1: {}
     - cocoapods-install@2: {}
     - xcode-test@3:
         inputs:
-        - project_path: $BITRISE_PROJECT_PATH
-        - scheme: $BITRISE_SCHEME
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - verbose: 'yes'
+        - scheme: "$BITRISE_SCHEME"
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
 app:
@@ -58,4 +51,4 @@ app:
     BITRISE_EXPORT_METHOD: development
 meta:
   bitrise.io:
-    machine_type_id: elite
+    machine_type_id: standard
