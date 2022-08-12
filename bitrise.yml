@@ -15,6 +15,11 @@ trigger_map:
 - pull_request_source_branch: '*'
   workflow: Run_Simulator_Tests
 
+meta:
+  bitrise.io:
+    stack: osx-xcode-13.4.x
+    machine_type_id: g2.4core
+
 workflows:
   Run_Device_Tests:
     steps:
