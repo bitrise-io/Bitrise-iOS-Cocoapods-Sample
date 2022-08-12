@@ -1,53 +1,60 @@
 ---
 format_version: '11'
-default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: ios
-
-app:
-  envs:
-  - BITRISE_PROJECT_PATH: Bitrise-iOS-Cocoapods-Sample.xcworkspace
-  - BITRISE_SCHEME: Bitrise-iOS-Cocoapods-Sample
-  - BITRISE_EXPORT_METHOD: development
-
-trigger_map:
-- push_branch: '*'
-  workflow: Run_Simulator_Tests
-- pull_request_source_branch: '*'
-  workflow: Run_Simulator_Tests
 
 meta:
   bitrise.io:
     stack: osx-xcode-13.4.x
     machine_type_id: g2.4core
+app:
+  envs:
+  - BITRISE_PROJECT_PATH: Bitrise-iOS-Cocoapods-Sample.xcworkspace
+  - BITRISE_SCHEME: Bitrise-iOS-Cocoapods-Sample
+  - BITRISE_DISTRIBUTION_METHOD: development
 
 workflows:
-  Run_Device_Tests:
+  primary:
+    description: |
+      The workflow executes the tests. The *retry_on_failure* test repetition mode is enabled.
+
+      Next steps:
+      - Check out [Getting started with iOS apps](https://devcenter.bitrise.io/en/getting-started/getting-started-with-ios-apps.html).
     steps:
     - git-clone@6: {}
     - cache-pull@2: {}
     - cocoapods-install@2: {}
-    - certificate-and-profile-installer@1:
+    - xcode-test@4:
         inputs:
-        - install_defaults: 'no'
-    - xcode-build-for-test@0:
-        inputs:
-        - verbose_log: 'yes'
-    - virtual-device-testing-for-ios@0:
-        inputs:
-        - test_devices: 'iphone8,14.7,en,portrait'
-    - deploy-to-bitrise-io@1: {}
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - test_repetition_mode: retry_on_failure
     - cache-push@2: {}
-  Run_Simulator_Tests:
+    - deploy-to-bitrise-io@2: {}
+
+  deploy:
+    description: |
+      The workflow tests, builds and deploys the app using *Deploy to bitrise.io* step.
+
+      For testing the *retry_on_failure* test repetition mode is enabled.
+
+      Next steps:
+      - Set up [Connecting to an Apple service with API key](https://devcenter.bitrise.io/en/accounts/connecting-to-services/connecting-to-an-apple-service-with-api-key.html##).
+      - Or further customise code signing following our [iOS code signing](https://devcenter.bitrise.io/en/code-signing/ios-code-signing.html) guide.
     steps:
-    - activate-ssh-key@4:
-        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
     - git-clone@6: {}
     - cache-pull@2: {}
     - cocoapods-install@2: {}
-    - xcode-test@3:
+    - xcode-test@4:
         inputs:
-        - project_path: $BITRISE_PROJECT_PATH
-        - verbose: 'yes'
-        - scheme: $BITRISE_SCHEME
-    - deploy-to-bitrise-io@1: {}
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - test_repetition_mode: retry_on_failure
+    - xcode-archive@4:
+        inputs:
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - distribution_method: "$BITRISE_DISTRIBUTION_METHOD"
+        - automatic_code_signing: api-key
     - cache-push@2: {}
+    - deploy-to-bitrise-io@2: {}
