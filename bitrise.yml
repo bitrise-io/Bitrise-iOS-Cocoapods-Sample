@@ -1,15 +1,23 @@
 ---
 format_version: '11'
-default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
 project_type: ios
+
+app:
+  envs:
+  - BITRISE_PROJECT_PATH: Bitrise-iOS-Cocoapods-Sample.xcworkspace
+  - BITRISE_SCHEME: Bitrise-iOS-Cocoapods-Sample
+  - BITRISE_EXPORT_METHOD: development
+
 trigger_map:
-- pull_request_source_branch: "*"
+- push_branch: '*'
   workflow: Run_Simulator_Tests
+- pull_request_source_branch: '*'
+  workflow: Run_Simulator_Tests
+
 workflows:
   Run_Device_Tests:
     steps:
-    - activate-ssh-key@4:
-        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
     - git-clone@6: {}
     - cache-pull@2: {}
     - cocoapods-install@2: {}
@@ -21,7 +29,7 @@ workflows:
         - verbose_log: 'yes'
     - virtual-device-testing-for-ios@0:
         inputs:
-        - test_devices: iphone8,14.7,en,portrait
+        - test_devices: 'iphone8,14.7,en,portrait'
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
   Run_Simulator_Tests:
@@ -33,22 +41,8 @@ workflows:
     - cocoapods-install@2: {}
     - xcode-test@3:
         inputs:
-        - project_path: "$BITRISE_PROJECT_PATH"
+        - project_path: $BITRISE_PROJECT_PATH
         - verbose: 'yes'
-        - scheme: "$BITRISE_SCHEME"
+        - scheme: $BITRISE_SCHEME
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
-app:
-  envs:
-  - opts:
-      is_expand: false
-    BITRISE_PROJECT_PATH: Bitrise-iOS-Cocoapods-Sample.xcworkspace
-  - opts:
-      is_expand: false
-    BITRISE_SCHEME: Bitrise-iOS-Cocoapods-Sample
-  - opts:
-      is_expand: false
-    BITRISE_EXPORT_METHOD: development
-meta:
-  bitrise.io:
-    machine_type_id: standard
