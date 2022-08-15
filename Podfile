@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '11.7'
 
 def common_pods
-    pod 'FirebaseAnalytics', '~> 9.2'
+    pod 'FirebaseAnalytics', '~> 9.2.0'
 end
 
 target 'Bitrise-iOS-Cocoapods-Sample' do
