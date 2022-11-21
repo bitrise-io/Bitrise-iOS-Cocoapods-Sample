@@ -9,10 +9,6 @@ trigger_map:
 - pull_request_source_branch: '*'
   workflow: primary
 
-meta:
-  bitrise.io:
-    stack: osx-xcode-13.4.x
-    machine_type_id: g2.4core
 app:
   envs:
   - BITRISE_PROJECT_PATH: Bitrise-iOS-Cocoapods-Sample.xcworkspace
