@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1ABAE13A26B829C30050BEFF"
-               BuildableName = "Bitrise-iOS-Cocoapods-Sample.app"
-               BlueprintName = "Bitrise-iOS-Cocoapods-Sample"
-               ReferencedContainer = "container:Bitrise-iOS-Cocoapods-Sample.xcodeproj">
+               BuildableName = "iOS Demo.app"
+               BlueprintName = "iOS Demo"
+               ReferencedContainer = "container:iOS Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1ABAE15026B829C60050BEFF"
-               BuildableName = "Bitrise-iOS-Cocoapods-SampleTests.xctest"
-               BlueprintName = "Bitrise-iOS-Cocoapods-SampleTests"
-               ReferencedContainer = "container:Bitrise-iOS-Cocoapods-Sample.xcodeproj">
+               BuildableName = "iOS DemoTests.xctest"
+               BlueprintName = "iOS DemoTests"
+               ReferencedContainer = "container:iOS Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1ABAE15B26B829C60050BEFF"
-               BuildableName = "Bitrise-iOS-Cocoapods-SampleUITests.xctest"
-               BlueprintName = "Bitrise-iOS-Cocoapods-SampleUITests"
-               ReferencedContainer = "container:Bitrise-iOS-Cocoapods-Sample.xcodeproj">
+               BuildableName = "iOS DemoUITests.xctest"
+               BlueprintName = "iOS DemoUITests"
+               ReferencedContainer = "container:iOS Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1ABAE13A26B829C30050BEFF"
-            BuildableName = "Bitrise-iOS-Cocoapods-Sample.app"
-            BlueprintName = "Bitrise-iOS-Cocoapods-Sample"
-            ReferencedContainer = "container:Bitrise-iOS-Cocoapods-Sample.xcodeproj">
+            BuildableName = "iOS Demo.app"
+            BlueprintName = "iOS Demo"
+            ReferencedContainer = "container:iOS Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1ABAE13A26B829C30050BEFF"
-            BuildableName = "Bitrise-iOS-Cocoapods-Sample.app"
-            BlueprintName = "Bitrise-iOS-Cocoapods-Sample"
-            ReferencedContainer = "container:Bitrise-iOS-Cocoapods-Sample.xcodeproj">
+            BuildableName = "iOS Demo.app"
+            BlueprintName = "iOS Demo"
+            ReferencedContainer = "container:iOS Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

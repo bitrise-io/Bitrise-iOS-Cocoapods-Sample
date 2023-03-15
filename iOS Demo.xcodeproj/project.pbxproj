@@ -42,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		139D5BC77621F2BFF4355A98 /* Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests/Pods-Bitrise-iOS-Cocoapods-Sample-Bitrise-iOS-Cocoapods-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1ABAE13B26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-iOS-Cocoapods-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAE13B26B829C30050BEFF /* iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABAE13E26B829C30050BEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABAE14026B829C30050BEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1ABAE14226B829C30050BEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		1ABAE14726B829C60050BEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ABAE14A26B829C60050BEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ABAE14C26B829C60050BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ABAE15126B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-iOS-Cocoapods-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAE15126B829C60050BEFF /* iOS DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABAE15526B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_iOS_Cocoapods_SampleTests.swift; sourceTree = "<group>"; };
 		1ABAE15726B829C60050BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ABAE15C26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-iOS-Cocoapods-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAE15C26B829C60050BEFF /* iOS DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABAE16026B829C60050BEFF /* Bitrise_iOS_Cocoapods_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_iOS_Cocoapods_SampleUITests.swift; sourceTree = "<group>"; };
 		1ABAE16226B829C60050BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ABAE16F26B83EFD0050BEFF /* WebHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebHelper.swift; sourceTree = "<group>"; };
@@ -110,9 +110,9 @@
 		1ABAE13C26B829C30050BEFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ABAE13B26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample.app */,
-				1ABAE15126B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests.xctest */,
-				1ABAE15C26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests.xctest */,
+				1ABAE13B26B829C30050BEFF /* iOS Demo.app */,
+				1ABAE15126B829C60050BEFF /* iOS DemoTests.xctest */,
+				1ABAE15C26B829C60050BEFF /* iOS DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */ = {
+		1ABAE13A26B829C30050BEFF /* iOS Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ABAE16526B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-Sample" */;
+			buildConfigurationList = 1ABAE16526B829C60050BEFF /* Build configuration list for PBXNativeTarget "iOS Demo" */;
 			buildPhases = (
 				4E8B5B4CF4F714A634022283 /* [CP] Check Pods Manifest.lock */,
 				1ABAE13726B829C30050BEFF /* Sources */,
@@ -198,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = "Bitrise-iOS-Cocoapods-Sample";
+			name = "iOS Demo";
 			productName = "Bitrise-iOS-Cocoapods-Sample";
-			productReference = 1ABAE13B26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample.app */;
+			productReference = 1ABAE13B26B829C30050BEFF /* iOS Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1ABAE15026B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */ = {
+		1ABAE15026B829C60050BEFF /* iOS DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ABAE16826B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleTests" */;
+			buildConfigurationList = 1ABAE16826B829C60050BEFF /* Build configuration list for PBXNativeTarget "iOS DemoTests" */;
 			buildPhases = (
 				8E39906268A9A715CF0A163E /* [CP] Check Pods Manifest.lock */,
 				1ABAE14D26B829C60050BEFF /* Sources */,
@@ -218,14 +218,14 @@
 			dependencies = (
 				1ABAE15326B829C60050BEFF /* PBXTargetDependency */,
 			);
-			name = "Bitrise-iOS-Cocoapods-SampleTests";
+			name = "iOS DemoTests";
 			productName = "Bitrise-iOS-Cocoapods-SampleTests";
-			productReference = 1ABAE15126B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests.xctest */;
+			productReference = 1ABAE15126B829C60050BEFF /* iOS DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1ABAE15B26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */ = {
+		1ABAE15B26B829C60050BEFF /* iOS DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ABAE16B26B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleUITests" */;
+			buildConfigurationList = 1ABAE16B26B829C60050BEFF /* Build configuration list for PBXNativeTarget "iOS DemoUITests" */;
 			buildPhases = (
 				522C3AFFEDC336E44E8D8FC2 /* [CP] Check Pods Manifest.lock */,
 				1ABAE15826B829C60050BEFF /* Sources */,
@@ -238,9 +238,9 @@
 			dependencies = (
 				1ABAE15E26B829C60050BEFF /* PBXTargetDependency */,
 			);
-			name = "Bitrise-iOS-Cocoapods-SampleUITests";
+			name = "iOS DemoUITests";
 			productName = "Bitrise-iOS-Cocoapods-SampleUITests";
-			productReference = 1ABAE15C26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests.xctest */;
+			productReference = 1ABAE15C26B829C60050BEFF /* iOS DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -265,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1ABAE13626B829C30050BEFF /* Build configuration list for PBXProject "Bitrise-iOS-Cocoapods-Sample" */;
+			buildConfigurationList = 1ABAE13626B829C30050BEFF /* Build configuration list for PBXProject "iOS Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -278,9 +278,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ABAE15026B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleTests */,
-				1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */,
-				1ABAE15B26B829C60050BEFF /* Bitrise-iOS-Cocoapods-SampleUITests */,
+				1ABAE15026B829C60050BEFF /* iOS DemoTests */,
+				1ABAE13A26B829C30050BEFF /* iOS Demo */,
+				1ABAE15B26B829C60050BEFF /* iOS DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -467,12 +467,12 @@
 /* Begin PBXTargetDependency section */
 		1ABAE15326B829C60050BEFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */;
+			target = 1ABAE13A26B829C30050BEFF /* iOS Demo */;
 			targetProxy = 1ABAE15226B829C60050BEFF /* PBXContainerItemProxy */;
 		};
 		1ABAE15E26B829C60050BEFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ABAE13A26B829C30050BEFF /* Bitrise-iOS-Cocoapods-Sample */;
+			target = 1ABAE13A26B829C30050BEFF /* iOS Demo */;
 			targetProxy = 1ABAE15D26B829C60050BEFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -683,7 +683,7 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iOS-Cocoapods-Sample.app/Bitrise-iOS-Cocoapods-Sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Demo.app/iOS Demo";
 			};
 			name = Debug;
 		};
@@ -710,7 +710,7 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iOS-Cocoapods-Sample.app/Bitrise-iOS-Cocoapods-Sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Demo.app/iOS Demo";
 			};
 			name = Release;
 		};
@@ -769,7 +769,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ABAE13626B829C30050BEFF /* Build configuration list for PBXProject "Bitrise-iOS-Cocoapods-Sample" */ = {
+		1ABAE13626B829C30050BEFF /* Build configuration list for PBXProject "iOS Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABAE16326B829C60050BEFF /* Debug */,
@@ -778,7 +778,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ABAE16526B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-Sample" */ = {
+		1ABAE16526B829C60050BEFF /* Build configuration list for PBXNativeTarget "iOS Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABAE16626B829C60050BEFF /* Debug */,
@@ -787,7 +787,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ABAE16826B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleTests" */ = {
+		1ABAE16826B829C60050BEFF /* Build configuration list for PBXNativeTarget "iOS DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABAE16926B829C60050BEFF /* Debug */,
@@ -796,7 +796,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ABAE16B26B829C60050BEFF /* Build configuration list for PBXNativeTarget "Bitrise-iOS-Cocoapods-SampleUITests" */ = {
+		1ABAE16B26B829C60050BEFF /* Build configuration list for PBXNativeTarget "iOS DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ABAE16C26B829C60050BEFF /* Debug */,
