@@ -8,21 +8,21 @@ def common_pods
     pod 'FirebaseAnalytics', '~> 9.4'
 end
 
-target 'Bitrise-iOS-Cocoapods-Sample' do
+target 'iOS Demo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   inhibit_all_warnings!
 
-  # Pods for Bitrise-iOS-Cocoapods-Sample
+  # Pods for iOS Demo
   common_pods
 
-  target 'Bitrise-iOS-Cocoapods-SampleTests' do
+  target 'iOS DemoTests' do
     inherit! :search_paths
     # Pods for testing
     common_pods
   end
 
-  target 'Bitrise-iOS-Cocoapods-SampleUITests' do
+  target 'iOS DemoUITests' do
     # Pods for testing
     common_pods
   end
