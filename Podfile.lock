@@ -88,7 +88,7 @@ DEPENDENCIES:
   - FirebaseAnalytics (~> 9.4)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseCoreDiagnostics
@@ -112,6 +112,6 @@ SPEC CHECKSUMS:
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 4b874354444b0125dd4a64367824d95fbf0cb986
+PODFILE CHECKSUM: 360d7fe137df6cc1b5c6bfe9d3e2622eeb306cd8
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
