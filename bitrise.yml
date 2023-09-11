@@ -17,8 +17,8 @@ trigger_map:
 
 meta:
   bitrise.io:
-    stack: osx-xcode-13.4.x
-    machine_type_id: g2.4core
+    stack: osx-xcode-14.3.x
+    machine_type_id: g2-m1.4core
 
 workflows:
   Run_Device_Tests:
