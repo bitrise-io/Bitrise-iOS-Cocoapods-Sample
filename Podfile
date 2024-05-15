@@ -1,11 +1,12 @@
 
-source 'https://cdn.cocoapods.org/'
+source 'https://github.com/CocoaPods/Specs.git'
 
 # Uncomment the next line to define a global platform for your project
-platform :ios, '11.7'
+platform :ios, '12.0'
 
 def common_pods
     pod 'FirebaseAnalytics', '~> 9.4'
+    pod 'SeonSDK', '5.3.0'
 end
 
 target 'Bitrise-iOS-Cocoapods-Sample' do
