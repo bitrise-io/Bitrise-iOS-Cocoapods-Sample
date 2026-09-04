@@ -6,8 +6,9 @@ source "https://rubygems.org"
 
 gem "cocoapods", "~> 1.17"
 
-# Add nkf for Ruby 3.4+ since some encoding libraries are no longer included by default
+# Add nkf/base64/bigdecimal for Ruby 3.4+ since some encoding libraries are no longer included by default
 if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new("3.4.0")
   gem "nkf"
   gem "base64"
+  gem "bigdecimal"
 end
